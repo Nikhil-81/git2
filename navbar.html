@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        /* Universal selector */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        /***** navbar style starts here *****/
+
+        #navbar{
+            display: flex;
+            width: 99%;
+            justify-content: space-between;
+            padding: 12px 25px;
+            background:rgb(3, 3, 85);
+            margin: 0.5%;
+            border-radius: 15px;
+        }
+        #logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        /* nav-elements style starts here */
+        #nav-ele{
+            display: flex;
+            width: 30%;
+        justify-content: space-between;
+
+        }
+        #nav-ele>a{
+            text-decoration: none;
+            color: white;
+            margin: 20px;
+        }
+        #nav-ele>a:hover{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><h1>Rebok</h1></div>
+        <div id="nav-ele">
+            <a href="">Mens</a>
+            <a href="">Womens</a>
+            <a href="">Login</a>
+            <a href="">SignUp</a>
+        </div>
+    </div>
+</body>
+</html>
